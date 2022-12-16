@@ -25,5 +25,3 @@ if (isDebugMode) {
     });
 
 }
-
-export { Pdf };
