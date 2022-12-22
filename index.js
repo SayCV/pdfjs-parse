@@ -4,7 +4,7 @@ const path = require('path');
 
 module.exports = Pdf;
 
-let isDebugMode = !module.parent; 
+let isDebugMode = require.main === module;//!module.parent; 
 
 //process.env.AUTO_KENT_DEBUG
 
